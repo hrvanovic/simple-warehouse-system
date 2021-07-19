@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.blixmark.view.LoginLayout">
+  <grid id="27dc6" binding="panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="89" y="68" width="445" height="430"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <enabled value="true"/>
+      <minimumSize width="400" height="430"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d57b5" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="0" right="0" weightx="1.0" weighty="2.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f635b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="24" style="1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Prijavi se."/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="8821d" class="javax.swing.JLabel" binding="onWrongCredText">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0" ipadx="1" ipady="5"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="true"/>
+              <font size="11" style="0"/>
+              <foreground color="-13421773"/>
+              <text value="Unijeli ste pogresne podatke!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="834bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="40" bottom="10" right="0" weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="11" style="0"/>
+          <foreground color="-10066330"/>
+          <text value="Blixmark 2020 | Developed by: HrvanovicMirza"/>
+        </properties>
+      </component>
+      <grid id="aab7c" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="40" bottom="10" right="40" weightx="1.0" weighty="5.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="96ff9" class="javax.swing.JTextField" binding="emailField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="15" right="0" weightx="1.0" weighty="0.0" ipady="25"/>
+            </constraints>
+            <properties>
+              <columns value="1"/>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+            <clientProperties>
+              <caretAspectRatio class="java.lang.Double" value="0.0"/>
+            </clientProperties>
+          </component>
+          <component id="6d" class="javax.swing.JPasswordField" binding="passField">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="15" right="0" weightx="0.0" weighty="0.0" ipady="25"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="28da1" class="javax.swing.JButton" binding="button">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0" ipady="25"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <enabled value="false"/>
+              <font size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Prijava"/>
+            </properties>
+          </component>
+          <component id="e7df3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="3" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="11" style="0"/>
+              <foreground color="-12303292"/>
+              <text value="E-mail:"/>
+            </properties>
+          </component>
+          <component id="2e10d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="3" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="11" style="0"/>
+              <foreground color="-12303292"/>
+              <text value="Lozinka:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
